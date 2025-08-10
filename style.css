@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+header>h1{
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+header>p{
+    font-variant: small-caps;
+}
+nav{
+    background-color: rgb(119, 71, 17);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+a:hover{
+    color: rgb(255, 136, 0);
+}
+nav>a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+main{
+    background-color: rgb(190, 125, 3);
+}
+
+article{
+    background-color: grey;
+    padding: 5px;
+    height: 600px;
+}
+article>p{
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+img{
+    display: block;
+    margin: auto;
+}
